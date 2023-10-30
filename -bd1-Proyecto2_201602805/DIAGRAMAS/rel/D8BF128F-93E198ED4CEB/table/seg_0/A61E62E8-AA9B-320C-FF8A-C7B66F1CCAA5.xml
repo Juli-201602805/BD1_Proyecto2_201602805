@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A61E62E8-AA9B-320C-FF8A-C7B66F1CCAA5" name="ACTA">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>CE6E8AC1-14E9-2025-0C01-F25E1B977428</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_acta" id="B363C5DD-BCEF-BF24-F886-16F1C4AA1747">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>BF4CC5CC-DF40-3030-D6FE-DEFAFB2EA917</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="10A42F9D-9CCD-8101-1EEA-D83432FDB3C2">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>A6351C45-D15D-0B90-BF66-7D639EDE79DE</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_HABILITADO_id_cursohabilitado" id="C96C46AF-C8DB-9088-ADAB-AE695151A941">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>86A4877C-3B6D-6CD8-29C5-978B4D7D413B</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="290BC122-3DE0-1905-5B8E-8717545A5940" referredColumn="87BA7681-E7F8-AA1D-0FAD-773B07F16D28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71716AB4-C39F-40C7-1B33-D159D00D1E37" name="ACTA_PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>EE2DE6CF-0F5B-7E3B-3BE2-3EA168D3F446</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B363C5DD-BCEF-BF24-F886-16F1C4AA1747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7CE1C2C-6C0F-29B5-3127-52BA828C89F4" name="ACTA_CURSO_HABILITADO_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>C64121EF-C55D-575B-5BD2-4A467A85BA84</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C96C46AF-C8DB-9088-ADAB-AE695151A941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22586126-8E0C-82ED-6407-EA0836316A84" name="NOTA">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>C4EFC292-3DAE-BE0E-AD4F-0D1550DD2DCA</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nota" id="9B6796E6-E3D0-D0D8-9BE0-A53E3C8D066B">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>02932568-35D7-57FA-5E4D-56FFABF1E93B</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="3D7D5B54-08E8-306E-9211-0B6765F0ADB0">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>16C6434F-2FE6-E017-8C00-1E658B123153</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="B3B90F53-6A3F-C743-9668-B16ACBFDA379">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>8531FB04-C042-EC43-AE73-DB4E45E10B17</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_HABILITADO_id_cursohabilitado" id="72ECAB60-F46C-8F80-36F9-4B7C4E259D8B">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>4AD12F84-4F5A-6785-D017-50C9F6F19ADB</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94A4D1BC-9D2D-CE8E-D865-66682CDB87B3" referredColumn="87BA7681-E7F8-AA1D-0FAD-773B07F16D28"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTE_carnet" id="767F9B79-D2AB-3142-58C1-1BFDD4AB04DC">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>8CECCAF4-599A-BA7D-9679-8D945D13667C</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="573916D5-28E9-DF31-87AF-497EDAFEA74E" referredColumn="6A6414AC-B4CB-77C6-FDDF-6D0F172B85FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D887E4EF-521D-CACD-E370-4BA8C9CB7F00" name="NOTA_PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>B4893300-B9EF-D227-0110-6CEE4054C6F3</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B6796E6-E3D0-D0D8-9BE0-A53E3C8D066B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="177BE744-4EB9-78EE-B7B4-251A8ED043C9" name="NOTA_CURSO_HABILITADO_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>56B28EFC-1C78-E186-504F-9A77D8875798</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72ECAB60-F46C-8F80-36F9-4B7C4E259D8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE54B1B5-BC1F-9554-3327-A2A369BB3D81" name="NOTA_ESTUDIANTE_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>8BFF3376-7565-4549-90F4-A8113621FECD</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="767F9B79-D2AB-3142-58C1-1BFDD4AB04DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

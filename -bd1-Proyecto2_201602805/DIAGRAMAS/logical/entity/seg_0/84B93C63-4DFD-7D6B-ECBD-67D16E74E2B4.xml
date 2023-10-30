@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84B93C63-4DFD-7D6B-ECBD-67D16E74E2B4" name="ESTUDIANTE">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:32:03 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="carnet" id="EF7CD2D8-D486-F3FB-3A38-D2ABCA117006">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:06 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7F212351-2BAD-52CE-53CA-4DD4992D1FED">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:06 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="715E4434-2A1A-7F34-8446-A060F8A5BA84">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:06 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="983D7577-628F-EECB-88B6-12F3B5B2E480">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="063039B1-7648-4627-D3BD-21C6B0EE367C">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="C86940E5-7291-BDF5-8779-9609F75D1B08">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="BB8C0FC8-2AC1-FF81-7033-2031FA4044CD">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="credito" id="244C598C-53E6-BEE3-8BFB-18A6EE882C63">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="A22024AC-4CAD-7C8D-E947-2CFD5DCC21FC">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carrera" id="6E14B11F-E18D-5925-47B4-CA039AEBF4D4">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:42:47 UTC</createdTime>
+<generatorID>5CBB7033-7811-1B43-833B-F53BC786ED96</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<referedAttribute>A2FF2DD1-5B78-AC9F-ED96-1A1C1A414BDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5823E8A-D405-84C2-21B9-94C7197307A0" name="ESTUDIANTE PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:53:18 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF7CD2D8-D486-F3FB-3A38-D2ABCA117006</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

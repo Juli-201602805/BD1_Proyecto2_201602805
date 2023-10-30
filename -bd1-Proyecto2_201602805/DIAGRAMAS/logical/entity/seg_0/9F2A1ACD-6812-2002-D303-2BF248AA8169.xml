@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F2A1ACD-6812-2002-D303-2BF248AA8169" name="HORARIO_CURSO">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:33:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_horario" id="D20ED040-EC7A-2F34-DE9A-1ACB00FA3260">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:01:44 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia" id="13B64C7F-752E-A708-731A-BEFD49015654">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:01:44 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario" id="C96CDD83-26E3-A8F9-5B4B-6BA6AF224093">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:01:44 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cursohabilitado" id="2CF16E4B-7C1A-807E-02FE-BA1147C0D1AA">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:36:44 UTC</createdTime>
+<generatorID>56F5E160-46E7-2B11-D3B2-ED57D2B6E605</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<referedAttribute>D9EE89D9-F009-522D-6AC2-010F68AA8558</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A39CF7CF-6B07-569D-F6EB-FD373E644931" name="HORARIO_CURSO PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:02:04 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D20ED040-EC7A-2F34-DE9A-1ACB00FA3260</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

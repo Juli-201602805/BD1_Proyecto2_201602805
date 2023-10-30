@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8DDDD47-8B07-D8C3-7E07-64AF562E8FE1" name="CARRERA">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>0BEEC9FD-C626-FB0D-151A-D7801944ABA0</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carrera" id="7C684195-54A9-E244-D78E-153BF906385C">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>A2FF2DD1-5B78-AC9F-ED96-1A1C1A414BDA</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="13F3166D-6358-7E9A-6D75-12D0A997A494">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>8E3CB5E9-B64C-49B9-9D28-6D6C6A47182D</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5121FDFF-73EB-4102-66C4-A67D2E6A8CBD" name="CARRERA_PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>5FFF7780-D70A-FBD4-33B4-B63C5369CF26</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C684195-54A9-E244-D78E-153BF906385C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

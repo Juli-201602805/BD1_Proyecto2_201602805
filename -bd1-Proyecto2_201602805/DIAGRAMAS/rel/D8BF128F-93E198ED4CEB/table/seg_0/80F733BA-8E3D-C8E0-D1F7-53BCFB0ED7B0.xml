@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80F733BA-8E3D-C8E0-D1F7-53BCFB0ED7B0" name="ASIGNACION_CURSO">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>295BBA21-2579-77FC-9D86-60C9F4584729</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignarcurso" id="06D7002C-A0B4-DB53-77FD-47C761CF0B9D">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>4179D34A-9E46-C658-8AEC-3A7D7AF2F307</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_asignacion" id="F8E96BFC-422E-7BDE-F661-A1ACAE1885A0">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>25C724D6-F182-3C16-C1A1-ABE635FCC5D2</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_HABILITADO_id_cursohabilitado" id="EE0EDB88-9D48-45E3-2A4E-7E667C214F93">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>1D9AC4AF-BC44-326A-E423-84832ED8C3AC</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30BC76C0-E5F8-AAF4-15C1-EACE784B8C76" referredColumn="87BA7681-E7F8-AA1D-0FAD-773B07F16D28"/>
+</associations>
+</Column>
+<Column name="ESTUDIANTE_carnet" id="D1225B8B-5E32-3B79-9639-4E18944C4412">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>2E244042-E93F-F568-591E-D008B3F36FD9</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA5B21D7-0947-D630-387A-7DE4EDBB38FA" referredColumn="6A6414AC-B4CB-77C6-FDDF-6D0F172B85FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4624611-3EF4-9F30-296C-4B4E6DDBCCE3" name="ASIGNACION_CURSO_PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>DB66F51E-4271-71E7-CEAA-F4F442654DC0</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D7002C-A0B4-DB53-77FD-47C761CF0B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="063E83B5-2562-8A91-A33E-13B92E576BE5" name="ASIGNACION_CURSO_CURSO_HABILITADO_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>B5ED578F-9926-E71F-CF1D-F7B4BCFAB83C</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE0EDB88-9D48-45E3-2A4E-7E667C214F93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7768D31B-53D2-13DB-C16B-41EB4877B093" name="ASIGNACION_CURSO_ESTUDIANTE_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>8E82BD33-8DB1-EB8A-8A8C-7688C09F7DD9</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1225B8B-5E32-3B79-9639-4E18944C4412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

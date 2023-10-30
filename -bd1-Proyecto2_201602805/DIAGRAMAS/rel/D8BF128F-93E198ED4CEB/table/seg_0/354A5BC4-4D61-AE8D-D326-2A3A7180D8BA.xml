@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="354A5BC4-4D61-AE8D-D326-2A3A7180D8BA" name="CURSO_HABILITADO">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>B6C72E15-8A1B-5A41-6727-925E0C125969</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cursohabilitado" id="87BA7681-E7F8-AA1D-0FAD-773B07F16D28">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>D9EE89D9-F009-522D-6AC2-010F68AA8558</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciclo" id="A5A15022-5898-C80B-DDAD-06ADE11DC4F3">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>F2E75EDF-B9A5-87E8-968C-8C56EFF77C37</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cupo_maximo" id="1C16EEFA-7362-6228-9F07-7ED9A6E61982">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>1DBBE5E4-89B9-9131-93CF-D2A9889F4178</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seccion" id="339FEC5B-4D70-CADA-86B6-E642F812D8B0">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>AF696890-A419-622E-F8A2-0ED2E873D02E</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year_curso" id="F952F585-6586-4C7F-BC8A-1E2A12A28656">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>D4807198-8956-5FBD-B6C0-1786E0935628</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asignado" id="0B963BA0-1501-1C8B-2196-D5750CB7129E">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>760C579D-7F36-0CD2-29B4-E63AFF117C6C</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_codigo" id="C883242B-6F2A-ABAA-BF4D-74A97A3FD9D4">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>D8A62E99-3B95-3A5C-D11E-E7642FF53320</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BDA1132-873E-3D8C-A529-913AC47140FC" referredColumn="572917C2-93BD-754B-8A8B-9A0B72228FA8"/>
+</associations>
+</Column>
+<Column name="DOCENTE_siif" id="88A03891-5B91-365B-B934-B2B81FB26CE5">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>97B10DE7-8910-8ACA-CC14-A397E1139D4B</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="122E513D-2FA3-400B-033D-354011951A34" referredColumn="6149DE62-9CF5-3641-1835-DDA400F4F050"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="641E447D-30FB-66F6-C4A3-282D89805B32" name="CURSO_HABILITADO_PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>15536E70-C8BC-27C1-6DEB-211F006F41DA</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87BA7681-E7F8-AA1D-0FAD-773B07F16D28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E26DBD04-C528-6713-37C1-372BB56BE762" name="CURSO_HABILITADO_DOCENTE_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>CA7434D0-2212-72B8-6D92-CAEC9C99781C</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A03891-5B91-365B-B934-B2B81FB26CE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2A38D43-3977-7CD8-DADA-4FB887192967" name="CURSO_HABILITADO_CURSO_FK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:46:53 UTC</createdTime>
+<generatorID>25A78DB6-B08F-5ABD-C65D-E639911124ED</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C883242B-6F2A-ABAA-BF4D-74A97A3FD9D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

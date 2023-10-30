@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4EFC292-3DAE-BE0E-AD4F-0D1550DD2DCA" name="NOTA">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 03:33:18 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nota" id="02932568-35D7-57FA-5E4D-56FFABF1E93B">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:03:56 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="16C6434F-2FE6-E017-8C00-1E658B123153">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:03:56 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="8531FB04-C042-EC43-AE73-DB4E45E10B17">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:03:56 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cursohabilitado" id="4AD12F84-4F5A-6785-D017-50C9F6F19ADB">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:36:29 UTC</createdTime>
+<generatorID>56B28EFC-1C78-E186-504F-9A77D8875798</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<referedAttribute>D9EE89D9-F009-522D-6AC2-010F68AA8558</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carnet" id="8CECCAF4-599A-BA7D-9679-8D945D13667C">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:37:24 UTC</createdTime>
+<generatorID>8BFF3376-7565-4549-90F4-A8113621FECD</generatorID>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<referedAttribute>EF7CD2D8-D486-F3FB-3A38-D2ABCA117006</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4893300-B9EF-D227-0110-6CEE4054C6F3" name="NOTA PK">
+<createdBy>mjuli</createdBy>
+<createdTime>2023-10-30 04:04:06 UTC</createdTime>
+<ownerDesignName>DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="D8BF128F-C292-7540-E274-93E198ED4CEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02932568-35D7-57FA-5E4D-56FFABF1E93B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
